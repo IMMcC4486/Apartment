@@ -1,0 +1,78 @@
+body{
+    background-color: pink;
+    font-size: 24px;
+    color: black;
+    text-align: center;
+}
+#showAddButton{
+    display: block;
+}
+#hideAddButton{
+    display: none;
+}
+#aptADD{
+    display: none;
+    float: left;
+    text-align: left;
+	width: 30%;
+}
+#updateApt{
+    /* display: none; */
+    float: right;
+	width: 30%;
+}
+
+#superstar{
+    background-color: blue;
+    font-size: 30px;
+    color: red;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#good{
+    background-color: green;
+    font-size: 30px;
+    color: blue;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+#ok{
+    background-color: yellow;
+    font-size: 30px;
+    color: green;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+#poor{
+    background-color: red;
+    font-size: 30px;
+    color: yellow;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+p{
+    color: purple;
+    text-align: center;
+}
+
+#okTable{
+    color: red;
+    text-align: center;
+    background-color: beige;
+}
+#mrprotection{
+	color: black;
+	display: none;
+	padding: 500;
+    position: fixed;
+    bottom: 0px;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    background: rgba(255,0,0,0.1);
+}

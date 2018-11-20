@@ -1,0 +1,70 @@
+<html>
+
+<head>
+<title>I & J Apartment Choices</title>
+<link rel="stylesheet" href="CSS\Apts.css">
+</head>
+
+<body>
+	<div>
+		<p>Small web app to help keep track of the apartments we've viewed
+			and their information</p>
+	</div>
+
+	<div id="tablehead"></div>
+	<div id ="tablebody"></div>
+	<div id="superstar"></div>
+	<div id="good"></div>
+	<div id="ok"></div>
+	<div id="poor"></div>
+
+    <!-- <button onclick="showApts()">Refresh Apartments List</button> -->
+    <br>
+	<br>
+	<button id="showAddButton" onclick="showAdd()">Add an Apartment</button>
+	<button id="hideAddButton" onclick="hideAdd()">Do Not Add an Apartment</button>
+		<br>
+	<section id="aptADD"> APARTMENT INFORMATION
+		<form method="post" name="updateform" id="ANA">
+			<label>Apartment Name</label>
+			<input type="text" name="ApartmentName" id="AN" placeholder="Apartment Name">
+			<br>	
+			<label>Address</label>
+			<input type="text" name="Address" id="Address" placeholder="123 This St Hometown, NJ 12345">
+			<br>	
+			<label>Phone Number</label>
+			<input type="text" name="PhoneNumber" id="PN" placeholder="123 456 7890">
+			<br>	
+			<label>Contract Length</label>
+			<input type="text" name="ContractLength" id="CL" placeholder="3M, 6M">
+			<br>	 
+			<label>Date Available</label>
+			<input type="text" name="DateAvailable" id="DA" placeholder="Nov 16, 2018">
+			<br>	
+			<label>Rent Amount</label>
+			<input type="number" name="RentAmount" id="RA" placeholder="0.00" min="0" max="10000">
+			<br>	
+			<label>Utilities Cost</label>
+			<input type="number" name="UtilitiesCost" id="UC" placeholder="0.00" min="0" max="10000">
+			<br>		
+			<label>Up Front Cost</label>
+			<input type="number" name="UpFrontCost" id="UFC" placeholder="0.00" min="0" max="10000">
+			<br>
+			<label>Notes</label>
+			<input type="text" name="Notes" id="NOTES" placeholder="Notes">
+			<br>
+			<input id="AddApartment" type="button" onclick ="addVerify()" value="ADD APARTMENT">
+		</form>
+	</section>
+	<section id="updateApt">
+		Hi
+	</section>
+
+
+	<!-- ///// DA PROTECTA //////////// -->
+	<div id="mrprotection">Loading... Please Wait...</div>
+
+</body>
+
+<script src="JS\Apts.js"></script>
+</html>
